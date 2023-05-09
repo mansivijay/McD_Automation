@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 39,
+        "name": "Verification of McDelivery Website",
+        "description": "",
+        "id": "all-features-of-macd-website;verification-of-mcdelivery-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5300779300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on McDelivery homepage",
+            "match": {
+              "location": "TestStepsPageFactory.user_is_on_McDelivery_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6116200,
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"pageFactory.Search_PF.enterKeyword(String)\" because \"this.search\" is null\r\n\tat stepDefinition.TestStepsPageFactory.user_click_on_Search_and_enters(TestStepsPageFactory.java:189)\r\n\tat ✽.And user click on Search and enters \"Burger\"(./FeatureFile/FeatureFileUsingPageFactory.feature:23)\r\n",
+              "status": "failed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#\tWhen user click on View Profile"
+              },
+              {
+                "line": 7,
+                "value": "#\tThen user click on Login/ Sign Up"
+              },
+              {
+                "line": 8,
+                "value": "#\tThen user enters mobile number"
+              },
+              {
+                "line": 9,
+                "value": "#\tAnd user click on Verify Mobile"
+              },
+              {
+                "line": 10,
+                "value": "#\tAnd user enters valid credential"
+              },
+              {
+                "line": 12,
+                "value": "#\tWhen user clicks on the change button"
+              },
+              {
+                "line": 13,
+                "value": "#\tThen user navigates to address selection page"
+              },
+              {
+                "line": 14,
+                "value": "#\tThen user enters the \"\u003caddress\u003e\" in Search building, locality, street address bar"
+              },
+              {
+                "line": 15,
+                "value": "#\tThen user clicks on save and select address"
+              },
+              {
+                "line": 16,
+                "value": "#"
+              },
+              {
+                "line": 17,
+                "value": "#\tWhen user clicks on App Store icon image"
+              },
+              {
+                "line": 18,
+                "value": "#\tThen check the title and verify the App Store site in new window"
+              },
+              {
+                "line": 19,
+                "value": "#\tWhen user clicks on Google Play icon image"
+              },
+              {
+                "line": 20,
+                "value": "#\tThen check the title and verify the Google Play site in new window"
+              },
+              {
+                "line": 21,
+                "value": "#"
+              },
+              {
+                "line": 22,
+                "value": "#\tWhen user click from the Item List"
+              }
+            ],
+            "line": 23,
+            "name": "user click on Search and enters \"Burger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Burger",
+                  "offset": 33
+                }
+              ],
+              "location": "TestStepsPageFactory.user_click_on_Search_and_enters(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "All Features of MacD website",
+    "description": "",
+    "id": "all-features-of-macd-website",
+    "keyword": "Feature",
+    "uri": "./FeatureFile/FeatureFileUsingPageFactory.feature"
+  }
+]
