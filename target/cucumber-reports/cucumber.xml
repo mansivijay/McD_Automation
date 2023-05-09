@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.306896">
+    <testcase classname="All Features of MacD website" name="Verification of McDelivery Website" time="5.306896">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;pageFactory.Search_PF.enterKeyword(String)&quot; because &quot;this.search&quot; is null&#13;&#10;&#9;at stepDefinition.TestStepsPageFactory.user_click_on_Search_and_enters(TestStepsPageFactory.java:189)&#13;&#10;&#9;at ✽.And user click on Search and enters &quot;Burger&quot;(./FeatureFile/FeatureFileUsingPageFactory.feature:23)&#13;&#10;"><![CDATA[Given user is on McDelivery homepage........................................passed
+And user click on Search and enters "Burger"................................failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "pageFactory.Search_PF.enterKeyword(String)" because "this.search" is null
+	at stepDefinition.TestStepsPageFactory.user_click_on_Search_and_enters(TestStepsPageFactory.java:189)
+	at ✽.And user click on Search and enters "Burger"(./FeatureFile/FeatureFileUsingPageFactory.feature:23)
+]]></failure>
+    </testcase>
+</testsuite>
